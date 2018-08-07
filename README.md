@@ -1,7 +1,7 @@
 # for_speech_scientists
 Brief knowledges for speech scientists
 
-1. Speech Representation : LPC Analysis - Formants, redundancy
+1. [Speech Representation : LPC Analysis - Formants, redundancy](https://github.com/homink/for_speech_scientists/blob/master/01_Speech_Representation.md)
 
 2. Speech Features : Recognition vs. Verification(Identification)
 
