@@ -1,22 +1,22 @@
 # for_speech_scientists
 Brief knowledges for speech scientists
 
-01. Speech Representation : LPC Analysis - Formants, redundancy
+1. Speech Representation : LPC Analysis - Formants, redundancy
 
-02. Speech Features : Recognition vs. Verification(Identification)
+2. Speech Features : Recognition vs. Verification(Identification)
 
-03. Clustering vs. Classification : how & where applied
+3. Clustering vs. Classification : how & where applied
 
-04. K-Nearest Neighbors (KNN) Algorithm
+4. K-Nearest Neighbors (KNN) Algorithm
 
-05. Expection-Maximization (EM) Algortihm
+5. Expection-Maximization (EM) Algortihm
 
-06. Support Vector Machine (SVM) Algorithm
+6. Support Vector Machine (SVM) Algorithm
 
-07. Avoiding Local Minimum
+7. Avoiding Local Minimum
 
-08. Data set allocation : Training, Dev, Test
+8. Data set allocation : Training, Dev, Test
 
-09. Convex Optimization
+9. Convex Optimization
 
 10. Echo Cancellation
