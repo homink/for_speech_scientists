@@ -25,7 +25,7 @@ Given a bunch of unnormalized log probabilities, and you want to recover the ori
 
 https://medium.com/@uniqtech/understand-the-softmax-function-in-minutes-f3a59641e86d
 
-![alt text](https://cdn-images-1.medium.com/max/1600/1*670CdxchunD-yAuUWdI7Bw.png | width=200)
+![alt text](https://cdn-images-1.medium.com/max/880/1*670CdxchunD-yAuUWdI7Bw.png?w=100)
 
 ```
 logits = [2.0, 1.0, 0.1]
@@ -42,7 +42,7 @@ softmax = [j/sum_of_exps for j in exps]
 
 https://medium.com/@dmitrijtichonov/debunking-loss-functions-in-deep-learning-4b9abc4c8d4c
 
-![alt text](https://cdn-images-1.medium.com/max/880/1*AlbV9jz2k3Ll1wEMCljdSg.png | width=400)
+![alt text](https://cdn-images-1.medium.com/max/880/1*AlbV9jz2k3Ll1wEMCljdSg.png?w=100)
 
 ## Regularization
 
