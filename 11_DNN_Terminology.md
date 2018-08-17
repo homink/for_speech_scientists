@@ -67,3 +67,5 @@ An extremely effective, simple and recently introduced regularization technique 
 ### b. Xavier initialization
 
 <img src="https://mlblr.com/images/smart_init.jpg" width="400">
+
+## Optimization (Cost Minimization, Weight Update)
