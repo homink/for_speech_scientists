@@ -66,4 +66,4 @@ An extremely effective, simple and recently introduced regularization technique 
 
 ### b. Xavier initialization
 
-![](https://image.slidesharecdn.com/weightsinitialization-170118090134/95/weights-initialization-7-638.jpg?cb=1484730203)
+![](https://mlblr.com/images/smart_init.jpg)
