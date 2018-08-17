@@ -20,3 +20,5 @@ Brief knowledges for speech scientists
 9. Convex Optimization
 
 10. Echo Cancellation
+
+11. DNN Terminology
