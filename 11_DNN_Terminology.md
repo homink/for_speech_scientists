@@ -50,20 +50,20 @@ Controlling the capacity of Neural Networks to prevent overfitting
 
 ### a. L1 and L2 regularization
 
-![alt text](https://i2.wp.com/laid.delanover.com/wp-content/uploads/2018/01/reg_formulas.png?w=400 )
+<img src="https://i2.wp.com/laid.delanover.com/wp-content/uploads/2018/01/reg_formulas.png" width="300">
 
 ### b. Dropout
 
 An extremely effective, simple and recently introduced regularization technique that keeps a neuron active with some probability p (a hyperparameter), or setting it to zero otherwise while training.
 
-![](http://cs231n.github.io/assets/nn2/dropout.jpeg)
+<img src="http://cs231n.github.io/assets/nn2/dropout.jpeg" width="600">
 
 ## Weight Initialization
 
 ### a. Batch normalization
 
-![](https://cdn-images-1.medium.com/max/800/1*Hiq-rLFGDpESpr8QNsJ1jg.png)
+<img src="https://cdn-images-1.medium.com/max/800/1*Hiq-rLFGDpESpr8QNsJ1jg.png" width="300">
 
 ### b. Xavier initialization
 
-![](https://mlblr.com/images/smart_init.jpg)
+<img src="https://mlblr.com/images/smart_init.jpg" width="400">
