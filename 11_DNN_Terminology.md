@@ -57,3 +57,13 @@ Controlling the capacity of Neural Networks to prevent overfitting
 An extremely effective, simple and recently introduced regularization technique that keeps a neuron active with some probability p (a hyperparameter), or setting it to zero otherwise while training.
 
 ![](http://cs231n.github.io/assets/nn2/dropout.jpeg)
+
+## Weight Initialization
+
+### a. Batch normalization
+
+![](https://cdn-images-1.medium.com/max/800/1*Hiq-rLFGDpESpr8QNsJ1jg.png)
+
+### b. Xavier initialization
+
+![](https://image.slidesharecdn.com/weightsinitialization-170118090134/95/weights-initialization-7-638.jpg?cb=1484730203)
