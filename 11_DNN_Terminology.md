@@ -48,6 +48,12 @@ https://medium.com/@dmitrijtichonov/debunking-loss-functions-in-deep-learning-4b
 
 Controlling the capacity of Neural Networks to prevent overfitting
 
-### L1 and L2 regularization
+### a. L1 and L2 regularization
 
 ![alt text](https://i2.wp.com/laid.delanover.com/wp-content/uploads/2018/01/reg_formulas.png?w=400 )
+
+### b. Dropout
+
+An extremely effective, simple and recently introduced regularization technique that keeps a neuron active with some probability p (a hyperparameter), or setting it to zero otherwise while training.
+
+![](http://cs231n.github.io/assets/nn2/dropout.jpeg)
