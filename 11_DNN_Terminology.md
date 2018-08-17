@@ -6,6 +6,10 @@ https://machinelearningmastery.com/classification-versus-regression-in-machine-l
 
 Fundamentally, classification is about predicting a label and regression is about predicting a quantity.
 
+https://www.reddit.com/r/MachineLearning/comments/3klqdh/q_whats_the_difference_between_crossentropy_and/
+
+In terms of loss function,  mean squared error is appropriate to regression (line/curve fitting) where the goal is to minimize the mean squared error between the training set (points) and the fitted curve. Cross entropy cost is appropriate to classification where the goal is to minimize the number of mis-classified training samples by imposing an exponentially increasing error the closer an output comes to being "1" when it should be "0", and vice versa.
+
 ## Softmax Function (i.e. Normalized Exponential Function)
 https://en.wikipedia.org/wiki/Softmax_function
 
@@ -34,9 +38,8 @@ softmax = [j/sum_of_exps for j in exps]
 >>> sum(softmax)
 1.0
 ```
-## Cross Entropy Loss Function
-https://sefiks.com/2017/12/17/a-gentle-introduction-to-cross-entropy-loss-function/
+## Cross Entropy Loss Function (i.e. Averaged Cross-Entropy Loss Function and Log Loss Function)
 
-Cross entropy function correlates between probabilities and one hot encoded labels.
+https://medium.com/@dmitrijtichonov/debunking-loss-functions-in-deep-learning-4b9abc4c8d4c
 
-![alt text](https://i0.wp.com/sefiks.com/wp-content/uploads/2017/12/one-hot-encoding.png?resize=1140%2C608&ssl=1)
+![alt text](https://cdn-images-1.medium.com/max/880/1*AlbV9jz2k3Ll1wEMCljdSg.png)
