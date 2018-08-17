@@ -21,4 +21,4 @@ Brief knowledges for speech scientists
 
 10. Echo Cancellation
 
-11. DNN Terminology
+11. [DNN Terminology](https://github.com/homink/for_speech_scientists/blob/master/11_DNN_Terminology.md)
