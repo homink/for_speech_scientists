@@ -72,6 +72,8 @@ An extremely effective, simple and recently introduced regularization technique 
 
 DNN has model parameters - weights and bias values - that maps input data to target values. By minimizing the error fuction (i.e. loss function, cost function, etc) derived from the difference between the prediction and the ground-truth, the model parameters are optimized with iterative methods. This is generally called model learning (i.e. training).
 
+https://towardsdatascience.com/types-of-optimization-algorithms-used-in-neural-networks-and-ways-to-optimize-gradient-95ae5d39529f
+
 ### First order optimization
 
 The First order derivative tells us whether **the function is decreasing or increasing at a particular point**. First order Derivative basically give us a line which is Tangential to a point on its Error Surface. Most widely used First order optimization algorithm is Gradient Descent. A Gradient is simply a vector which is a multi-variable generalization of a derivative(dy/dx) which is the instantaneous rate of change of y with respect to x. A Gradient is represented by a **Jacobian Matrix** — which is simply a Matrix consisting of first order partial derivatives(Gradients). The First order optimization techniques are easy to compute and less time consuming , converging pretty fast on large data sets
