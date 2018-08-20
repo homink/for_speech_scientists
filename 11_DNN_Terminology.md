@@ -70,4 +70,16 @@ An extremely effective, simple and recently introduced regularization technique 
 
 ## Optimization (Cost Minimization, Weight Update)
 
-DNN has model parameters - weights and bias values - that maps input data to target values. By minimizing the error fuction (i.e. loss function, cost function, etc) derived from the difference between the prediction and the ground-truth, the model parameters are optimized with iterative methods (i.e. called model learning).
+DNN has model parameters - weights and bias values - that maps input data to target values. By minimizing the error fuction (i.e. loss function, cost function, etc) derived from the difference between the prediction and the ground-truth, the model parameters are optimized with iterative methods. This is generally called model learning (i.e. training).
+
+### First order optimization
+
+The First order derivative tells us whether **the function is decreasing or increasing at a particular point**. First order Derivative basically give us a line which is Tangential to a point on its Error Surface. Most widely used First order optimization algorithm is Gradient Descent. A Gradient is simply a vector which is a multi-variable generalization of a derivative(dy/dx) which is the instantaneous rate of change of y with respect to x. A Gradient is represented by a **Jacobian Matrix** — which is simply a Matrix consisting of first order partial derivatives(Gradients). The First order optimization techniques are easy to compute and less time consuming , converging pretty fast on large data sets
+
+### Second order optimization
+
+The Second order derivative tells us whether **the First derivative is increasing or decreasing which hints at the function’s curvature**. Second Order Derivative provide us with a quadratic surface which touches the curvature of the error surface. The Second order techniques are always slower and costly to compute in terms of both time and memory (except only when the second order derivative is known, called as a **Hessian Matrix**).
+
+### Remark
+
+The Second order techniques will not get stuck around paths of slow convergence around saddle points whereas Gradient Descent sometimes gets stuck and does not converges. Best way to know which one converges fast is to try it out yourself.
