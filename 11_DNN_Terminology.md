@@ -69,3 +69,5 @@ An extremely effective, simple and recently introduced regularization technique 
 <img src="https://mlblr.com/images/smart_init.jpg" width="400">
 
 ## Optimization (Cost Minimization, Weight Update)
+
+DNN has model parameters - weights and bias values - that maps input data to target values. By minimizing the error fuction (i.e. loss function, cost function, etc) derived from the difference between the prediction and the ground-truth, the model parameters are optimized with iterative methods (i.e. called model learning).
